@@ -5,7 +5,7 @@ phases:
       java: corretto11
   build:
     commands:
-      - echo Build completed on `date`
+      - echo Build completed on `time`
       - mvn package
 
 artifacts:
